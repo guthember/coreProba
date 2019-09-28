@@ -6,7 +6,8 @@ namespace coreProba
     {
         static void Main(string[] args)
         {
-            var name = "Ana";
+            Console.Write("What is your name? :");
+            var name = Console.ReadLine();
             Console.WriteLine($"Hello {name}!");
         }
     }
